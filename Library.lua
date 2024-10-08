@@ -660,6 +660,7 @@ do
             TextXAlignment = Enum.TextXAlignment.Left;
             TextSize = 14;
             Text = ColorPicker.Title,--Info.Default;
+            RichText = true,
             TextWrapped = false;
             ZIndex = 16;
             Parent = PickerFrameInner;
@@ -2927,6 +2928,7 @@ function Library:CreateWindow(...)
         Position = UDim2.new(0, 7, 0, 0);
         Size = UDim2.new(0, 0, 0, 25);
         Text = Config.Title or '';
+        RichText = true,
         TextXAlignment = Enum.TextXAlignment.Left;
         ZIndex = 1;
         Parent = Inner;
